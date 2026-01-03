@@ -1,0 +1,10 @@
+K {type=primitive
+format="@name "
+template="name=x1"
+extra=""}
+T {@symname} 0 -6 0 0 0.3 0.3 {hcenter=true}
+T {@name} 135 -22 0 0 0.2 0.2 {}
+L 4 -130 -10 130 -10 {}
+L 4 -130 10 130 10 {}
+L 4 -130 -10 -130 10 {}
+L 4 130 -10 130 10 {}
