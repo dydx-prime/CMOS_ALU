@@ -1,5 +1,5 @@
 # CMOS_ALU
-4-Bit CMOS ALU Layout Design. Consists of a 4-1 Mux, which drives NAND, NOR, AND, OR operations based on the select signals of S0 and S1.
+4-Bit CMOS ALU Layout Design in 130 Nanometer Technology. Consists of a 4-1 Mux, which drives NAND, NOR, AND, OR operations based on the select signals of S0 and S1.
 
 ## Preliminary Stuff
 Main schematic and layout is under the "main" directory.
