@@ -1,0 +1,115 @@
+<?xml version="1.0" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+ "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+  width="100%" height="100%" viewBox="0 0 1024 768"
+  style="fill: none; font-family: Helvetica;
+ font: Helvetica;
+">
+
+<!-- Creator: NGspice -->
+
+<rect x="0" y="0" width="1024" height="768" fill="black" stroke="none"/>
+<text stroke="none" fill="white" font-size="16" x="358" y="752">
+time
+</text>
+<text stroke="none" fill="white" font-size="16" x="10" y="16">
+tran1: ** sch_path: /home/prime/cmos_alu/main/top_schematic.sch
+</text>
+<path stroke="white" d="M50 720l0 -671"/>
+<text stroke="none" fill="white" font-size="16" x="35" y="728">
+0.0
+</text>
+<path stroke="white" stroke-dasharray="1,2" d="M165 720l0 -671"/>
+<text stroke="none" fill="white" font-size="16" x="150" y="728">
+1.0
+</text>
+<path stroke="white" stroke-dasharray="1,2" d="M280 720l0 -671"/>
+<text stroke="none" fill="white" font-size="16" x="265" y="728">
+2.0
+</text>
+<path stroke="white" stroke-dasharray="1,2" d="M395 720l0 -671"/>
+<text stroke="none" fill="white" font-size="16" x="380" y="728">
+3.0
+</text>
+<path stroke="white" stroke-dasharray="1,2" d="M510 720l0 -671"/>
+<text stroke="none" fill="white" font-size="16" x="495" y="728">
+4.0
+</text>
+<path stroke="white" stroke-dasharray="1,2" d="M625 720l0 -671"/>
+<text stroke="none" fill="white" font-size="16" x="610" y="728">
+5.0
+</text>
+<path stroke="white" stroke-dasharray="1,2" d="M740 720l0 -671"/>
+<text stroke="none" fill="white" font-size="16" x="725" y="728">
+6.0
+</text>
+<path stroke="white" stroke-dasharray="1,2" d="M855 720l0 -671"/>
+<text stroke="none" fill="white" font-size="16" x="840" y="728">
+7.0
+</text>
+<path stroke="white" stroke-dasharray="1,2" d="M970 720l0 -671"/>
+<text stroke="none" fill="white" font-size="16" x="955" y="728">
+8.0
+</text>
+<text stroke="none" fill="white" font-size="16" x="614" y="752">
+ns
+</text>
+<path stroke="white" stroke-dasharray="1,2" d="M50 720l920 0"/>
+<text stroke="none" fill="white" font-size="16" x="8" y="728">
+-0.2
+</text>
+<path stroke="white" d="M50 659l920 0"/>
+<text stroke="none" fill="white" font-size="16" x="18" y="667">
+0.0
+</text>
+<path stroke="white" stroke-dasharray="1,2" d="M50 598l920 0"/>
+<text stroke="none" fill="white" font-size="16" x="18" y="606">
+0.2
+</text>
+<path stroke="white" stroke-dasharray="1,2" d="M50 537l920 0"/>
+<text stroke="none" fill="white" font-size="16" x="18" y="545">
+0.4
+</text>
+<path stroke="white" stroke-dasharray="1,2" d="M50 476l920 0"/>
+<text stroke="none" fill="white" font-size="16" x="18" y="484">
+0.6
+</text>
+<path stroke="white" stroke-dasharray="1,2" d="M50 415l920 0"/>
+<text stroke="none" fill="white" font-size="16" x="18" y="423">
+0.8
+</text>
+<path stroke="white" stroke-dasharray="1,2" d="M50 354l920 0"/>
+<text stroke="none" fill="white" font-size="16" x="18" y="362">
+1.0
+</text>
+<path stroke="white" stroke-dasharray="1,2" d="M50 293l920 0"/>
+<text stroke="none" fill="white" font-size="16" x="18" y="301">
+1.2
+</text>
+<path stroke="white" stroke-dasharray="1,2" d="M50 232l920 0"/>
+<text stroke="none" fill="white" font-size="16" x="18" y="240">
+1.4
+</text>
+<path stroke="white" stroke-dasharray="1,2" d="M50 171l920 0"/>
+<text stroke="none" fill="white" font-size="16" x="18" y="179">
+1.6
+</text>
+<path stroke="white" stroke-dasharray="1,2" d="M50 110l920 0"/>
+<text stroke="none" fill="white" font-size="16" x="18" y="118">
+1.8
+</text>
+<path stroke="white" stroke-dasharray="1,2" d="M50 49l920 0"/>
+<text stroke="none" fill="white" font-size="16" x="18" y="57">
+2.0
+</text>
+<text stroke="none" fill="white" font-size="16" x="10" y="32">
+V
+</text>
+<path stroke="red" d="M460 23l46 0"/>
+<text stroke="none" fill="white" font-size="16" x="516" y="32">
+F1
+</text>
+<path stroke="red" d="M50 110l120 0 1 1 3 -6 3 -28 4 516 2 94 3 -52 3 42 4 -34 4 29 7 -25 8 23 13 -22 18 21 19 -20 18 19 0 -9 1 -1M281 659l0 -1M281 659l8 0 3 1 3 2 3 5 3 -256 5 -297 4 -5 4 1 196 0 1 1 0 -1 229 0 0 -1 1 1M741 112l0 -2M741 112l1 0"/>
+<path stroke="red" d="M742 112l0 -1 1 0 0 -2 2 0 1 1 224 0"/>
+</svg>

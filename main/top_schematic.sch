@@ -971,11 +971,11 @@ N 2790 -330 2790 -310 {lab=#net49}
 N 2790 -320 2890 -320 {lab=#net49}
 N 2140 10 2240 10 {lab=#net52}
 N 2790 -280 2810 -280 {lab=gnd}
-C {ipin.sym} 1490 1830 0 0 {name=p198 lab=gnd
+C {ipin.sym} -1490 3180 0 0 {name=p198 lab=gnd
 }
-C {ipin.sym} 1490 1810 0 0 {name=p199 lab=Vdd
+C {ipin.sym} -1490 3160 0 0 {name=p199 lab=Vdd
 }
-C {ipin.sym} 1390 1780 0 0 {name=p203 lab=B0_0
+C {ipin.sym} -1590 3130 0 0 {name=p203 lab=B0_0
 }
 C {sky130_fd_pr/pfet_01v8.sym} 410 3610 0 0 {name=M37
 W=4
@@ -2181,8 +2181,8 @@ C {lab_pin.sym} 430 4190 1 0 {name=p55 sig_type=std_logic lab=Vdd}
 C {lab_pin.sym} 620 4280 1 0 {name=p56 sig_type=std_logic lab=Vdd}
 C {lab_pin.sym} 620 4680 3 0 {name=p197 sig_type=std_logic lab=gnd}
 C {lab_pin.sym} 620 4400 3 0 {name=p248 sig_type=std_logic lab=gnd}
-C {ipin.sym} 1300 1780 0 0 {name=p1 lab=A0_0}
-C {ipin.sym} 1500 1870 0 0 {name=p64 lab=S0_0
+C {ipin.sym} -1680 3130 0 0 {name=p1 lab=A0_0}
+C {ipin.sym} -1480 3220 0 0 {name=p64 lab=S0_0
 }
 C {vsource.sym} -1320 840 0 0 {name=V2 value="pwl(0n 1.8 1n 1.8 1.01n 0 4n 0 4.01n 1.8 5n 1.8 5.01n 0)" savecurrent=false
 spice_ignore=true}
@@ -2237,30 +2237,30 @@ spice_ignore=true}
 C {gnd.sym} -430 730 0 0 {name=l10 lab=GND
 spice_ignore=true}
 C {vsource.sym} -570 2560 0 0 {name=V11 value="pwl(0n 0 2n 0 2.01n 1.8 4n 1.8 4.01n 0 6n 0 6.01n 1.8)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -570 2590 0 0 {name=l11 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -430 670 0 0 {name=p291 sig_type=std_logic lab=S2
 spice_ignore=true}
 C {lab_pin.sym} -570 2530 0 0 {name=p292 sig_type=std_logic lab=S1_0
-spice_ignore=true}
+}
 C {vsource.sym} -800 2560 0 0 {name=V12 value="pulse(0 1.8 1n 10ps 10ps 1n 2n)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -800 2590 0 0 {name=l12 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -800 2530 0 0 {name=p293 sig_type=std_logic lab=S0_0
-spice_ignore=true}
-C {code_shown.sym} -1920 1790 0 0 {name=s1 only_toplevel=false value=".lib /home/prime/vlsi_/open_pdks/sources/sky130_fd_pr/models/sky130.lib.spice tt
+}
+C {code_shown.sym} -1950 1820 0 0 {name=s1 only_toplevel=false value=".lib /home/prime/vlsi_/open_pdks/sources/sky130_fd_pr/models/sky130.lib.spice tt
 .tran 0.2n 8n
 .save all
 .end"
-spice_ignore=true}
+}
 C {lab_pin.sym} -440 1960 0 0 {name=p294 sig_type=std_logic lab=Vdd
-spice_ignore=true}
+}
 C {vsource.sym} -440 1990 0 0 {name=V1 value=1.8 savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -440 2020 0 0 {name=l1 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} 410 570 0 0 {name=p121 sig_type=std_logic lab=A0_1}
 C {lab_pin.sym} 410 650 0 0 {name=p122 sig_type=std_logic lab=B0_1}
 C {lab_pin.sym} 340 770 0 0 {name=p123 sig_type=std_logic lab=A0_1}
@@ -2309,57 +2309,57 @@ C {lab_pin.sym} 390 4500 0 0 {name=p49 sig_type=std_logic lab=A3_3}
 C {lab_pin.sym} 390 4580 0 0 {name=p50 sig_type=std_logic lab=B3_3}
 C {lab_pin.sym} 320 4670 0 0 {name=p51 sig_type=std_logic lab=A3_3}
 C {lab_pin.sym} 450 4670 0 0 {name=p52 sig_type=std_logic lab=B3_3}
-C {ipin.sym} 1300 1800 0 0 {name=p282 lab=A0_1}
-C {ipin.sym} 1300 1820 0 0 {name=p295 lab=A0_2}
-C {ipin.sym} 1300 1840 0 0 {name=p296 lab=A0_3}
-C {ipin.sym} 1390 1800 0 0 {name=p297 lab=B0_1}
-C {ipin.sym} 1390 1820 0 0 {name=p298 lab=B0_2
+C {ipin.sym} -1680 3150 0 0 {name=p282 lab=A0_1}
+C {ipin.sym} -1680 3170 0 0 {name=p295 lab=A0_2}
+C {ipin.sym} -1680 3190 0 0 {name=p296 lab=A0_3}
+C {ipin.sym} -1590 3150 0 0 {name=p297 lab=B0_1}
+C {ipin.sym} -1590 3170 0 0 {name=p298 lab=B0_2
 }
-C {ipin.sym} 1390 1840 0 0 {name=p299 lab=B0_3
+C {ipin.sym} -1590 3190 0 0 {name=p299 lab=B0_3
 }
-C {ipin.sym} 1300 1880 0 0 {name=p300 lab=A1_0}
-C {ipin.sym} 1300 1900 0 0 {name=p301 lab=A1_1}
-C {ipin.sym} 1300 1920 0 0 {name=p302 lab=A1_2}
-C {ipin.sym} 1300 1940 0 0 {name=p303 lab=A1_3}
-C {ipin.sym} 1300 1980 0 0 {name=p304 lab=A2_0}
-C {ipin.sym} 1300 2000 0 0 {name=p305 lab=A2_1}
-C {ipin.sym} 1300 2020 0 0 {name=p306 lab=A2_2}
-C {ipin.sym} 1300 2040 0 0 {name=p307 lab=A2_3}
-C {ipin.sym} 1300 2080 0 0 {name=p308 lab=A3_0}
-C {ipin.sym} 1300 2100 0 0 {name=p309 lab=A3_1}
-C {ipin.sym} 1300 2120 0 0 {name=p310 lab=A3_2}
-C {ipin.sym} 1300 2140 0 0 {name=p311 lab=A3_3}
-C {ipin.sym} 1390 1880 0 0 {name=p200 lab=B1_0
+C {ipin.sym} -1680 3230 0 0 {name=p300 lab=A1_0}
+C {ipin.sym} -1680 3250 0 0 {name=p301 lab=A1_1}
+C {ipin.sym} -1680 3270 0 0 {name=p302 lab=A1_2}
+C {ipin.sym} -1680 3290 0 0 {name=p303 lab=A1_3}
+C {ipin.sym} -1680 3330 0 0 {name=p304 lab=A2_0}
+C {ipin.sym} -1680 3350 0 0 {name=p305 lab=A2_1}
+C {ipin.sym} -1680 3370 0 0 {name=p306 lab=A2_2}
+C {ipin.sym} -1680 3390 0 0 {name=p307 lab=A2_3}
+C {ipin.sym} -1680 3430 0 0 {name=p308 lab=A3_0}
+C {ipin.sym} -1680 3450 0 0 {name=p309 lab=A3_1}
+C {ipin.sym} -1680 3470 0 0 {name=p310 lab=A3_2}
+C {ipin.sym} -1680 3490 0 0 {name=p311 lab=A3_3}
+C {ipin.sym} -1590 3230 0 0 {name=p200 lab=B1_0
 }
-C {ipin.sym} 1390 1900 0 0 {name=p201 lab=B1_1}
-C {ipin.sym} 1390 1920 0 0 {name=p202 lab=B1_2
+C {ipin.sym} -1590 3250 0 0 {name=p201 lab=B1_1}
+C {ipin.sym} -1590 3270 0 0 {name=p202 lab=B1_2
 }
-C {ipin.sym} 1390 1940 0 0 {name=p205 lab=B1_3
+C {ipin.sym} -1590 3290 0 0 {name=p205 lab=B1_3
 }
-C {ipin.sym} 1390 1980 0 0 {name=p213 lab=B2_0
+C {ipin.sym} -1590 3330 0 0 {name=p213 lab=B2_0
 }
-C {ipin.sym} 1390 2000 0 0 {name=p217 lab=B2_1}
-C {ipin.sym} 1390 2020 0 0 {name=p312 lab=B2_2
+C {ipin.sym} -1590 3350 0 0 {name=p217 lab=B2_1}
+C {ipin.sym} -1590 3370 0 0 {name=p312 lab=B2_2
 }
-C {ipin.sym} 1390 2040 0 0 {name=p313 lab=B2_3
+C {ipin.sym} -1590 3390 0 0 {name=p313 lab=B2_3
 }
-C {ipin.sym} 1390 2080 0 0 {name=p314 lab=B3_0
+C {ipin.sym} -1590 3430 0 0 {name=p314 lab=B3_0
 }
-C {ipin.sym} 1390 2100 0 0 {name=p315 lab=B3_1}
-C {ipin.sym} 1390 2120 0 0 {name=p316 lab=B3_2
+C {ipin.sym} -1590 3450 0 0 {name=p315 lab=B3_1}
+C {ipin.sym} -1590 3470 0 0 {name=p316 lab=B3_2
 }
-C {ipin.sym} 1390 2140 0 0 {name=p317 lab=B3_3
+C {ipin.sym} -1590 3490 0 0 {name=p317 lab=B3_3
 }
-C {ipin.sym} 1500 1890 0 0 {name=p318 lab=S0_1
+C {ipin.sym} -1480 3240 0 0 {name=p318 lab=S0_1
 }
-C {ipin.sym} 1500 1910 0 0 {name=p319 lab=S0_2}
-C {ipin.sym} 1500 1930 0 0 {name=p320 lab=S0_3
+C {ipin.sym} -1480 3260 0 0 {name=p319 lab=S0_2}
+C {ipin.sym} -1480 3280 0 0 {name=p320 lab=S0_3
 }
-C {ipin.sym} 1500 1950 0 0 {name=p321 lab=S0_4
+C {ipin.sym} -1480 3300 0 0 {name=p321 lab=S0_4
 }
-C {ipin.sym} 1500 1970 0 0 {name=p322 lab=S0_5}
-C {ipin.sym} 1500 1990 0 0 {name=p323 lab=S0_6}
-C {ipin.sym} 1500 2010 0 0 {name=p324 lab=S0_7
+C {ipin.sym} -1480 3320 0 0 {name=p322 lab=S0_5}
+C {ipin.sym} -1480 3340 0 0 {name=p323 lab=S0_6}
+C {ipin.sym} -1480 3360 0 0 {name=p324 lab=S0_7
 }
 C {sky130_fd_pr/pfet_01v8.sym} 2260 3370 3 0 {name=M129
 W=1
@@ -3737,169 +3737,265 @@ C {lab_pin.sym} 2240 170 3 0 {name=p235 sig_type=std_logic lab=Vdd}
 C {lab_pin.sym} 2200 -150 0 0 {name=p236 sig_type=std_logic lab=AND0}
 C {lab_pin.sym} 2210 250 0 0 {name=p237 sig_type=std_logic lab=OR0}
 C {opin.sym} 3480 -300 0 0 {name=p238 lab=F0}
-C {ipin.sym} 1500 2080 0 0 {name=p239 lab=S1_0
+C {ipin.sym} -1480 3430 0 0 {name=p239 lab=S1_0
 }
-C {ipin.sym} 1500 2100 0 0 {name=p240 lab=S1_1
+C {ipin.sym} -1480 3450 0 0 {name=p240 lab=S1_1
 }
-C {ipin.sym} 1500 2120 0 0 {name=p241 lab=S1_2
+C {ipin.sym} -1480 3470 0 0 {name=p241 lab=S1_2
 }
-C {ipin.sym} 1500 2140 0 0 {name=p242 lab=S1_3
+C {ipin.sym} -1480 3490 0 0 {name=p242 lab=S1_3
 }
 C {vsource.sym} -800 2660 0 0 {name=V13 value="pulse(0 1.8 1n 10ps 10ps 1n 2n)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -800 2690 0 0 {name=l13 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -800 2630 0 0 {name=p243 sig_type=std_logic lab=S0_1
-spice_ignore=true}
+}
 C {vsource.sym} -800 2760 0 0 {name=V14 value="pulse(0 1.8 1n 10ps 10ps 1n 2n)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -800 2790 0 0 {name=l14 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -800 2730 0 0 {name=p244 sig_type=std_logic lab=S0_2
-spice_ignore=true}
+}
 C {vsource.sym} -800 2860 0 0 {name=V15 value="pulse(0 1.8 1n 10ps 10ps 1n 2n)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -800 2890 0 0 {name=l15 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -800 2830 0 0 {name=p245 sig_type=std_logic lab=S0_3
-spice_ignore=true}
+}
 C {vsource.sym} -800 2960 0 0 {name=V16 value="pulse(0 1.8 1n 10ps 10ps 1n 2n)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -800 2990 0 0 {name=l16 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -800 2930 0 0 {name=p246 sig_type=std_logic lab=S0_4
-spice_ignore=true}
+}
 C {vsource.sym} -800 3060 0 0 {name=V17 value="pulse(0 1.8 1n 10ps 10ps 1n 2n)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -800 3090 0 0 {name=l17 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -800 3030 0 0 {name=p247 sig_type=std_logic lab=S0_5
-spice_ignore=true}
+}
 C {vsource.sym} -800 3160 0 0 {name=V18 value="pulse(0 1.8 1n 10ps 10ps 1n 2n)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -800 3190 0 0 {name=l18 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -800 3130 0 0 {name=p249 sig_type=std_logic lab=S0_6
-spice_ignore=true}
+}
 C {vsource.sym} -800 3260 0 0 {name=V19 value="pulse(0 1.8 1n 10ps 10ps 1n 2n)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -800 3290 0 0 {name=l19 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -800 3230 0 0 {name=p250 sig_type=std_logic lab=S0_7
-spice_ignore=true}
+}
 C {vsource.sym} -570 2660 0 0 {name=V20 value="pwl(0n 0 2n 0 2.01n 1.8 4n 1.8 4.01n 0 6n 0 6.01n 1.8)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -570 2690 0 0 {name=l20 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -570 2630 0 0 {name=p251 sig_type=std_logic lab=S1_1
-spice_ignore=true}
+}
 C {vsource.sym} -570 2760 0 0 {name=V21 value="pwl(0n 0 2n 0 2.01n 1.8 4n 1.8 4.01n 0 6n 0 6.01n 1.8)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -570 2790 0 0 {name=l21 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -570 2730 0 0 {name=p252 sig_type=std_logic lab=S1_2
-spice_ignore=true}
+}
 C {vsource.sym} -570 2860 0 0 {name=V22 value="pwl(0n 0 2n 0 2.01n 1.8 4n 1.8 4.01n 0 6n 0 6.01n 1.8)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -570 2890 0 0 {name=l22 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -570 2830 0 0 {name=p253 sig_type=std_logic lab=S1_3
-spice_ignore=true}
+}
 C {vsource.sym} -1940 2000 0 0 {name=V23 value="pwl(0n 1.8 1n 1.8 1.01n 0 4n 0 4.01n 1.8 5n 1.8 5.01n 0)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -1940 2030 0 0 {name=l23 lab=GND
-spice_ignore=true}
+}
 C {vsource.sym} -2090 2120 0 0 {name=V24 value="pwl(0n 1.8 1n 1.8 1.01n 0 2n 0 2.01n 1.8 4n 1.8 4.01n 0 6n 0 6.01n 1.8 7n 1.8 7.01n 0)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -2090 2150 0 0 {name=l24 lab=GND
-spice_ignore=true}
+}
 C {vsource.sym} -2180 2240 0 0 {name=V25 value="pwl(0n 0 7n 0 7.01n 1.8)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -2180 2270 0 0 {name=l25 lab=GND
-spice_ignore=true}
+}
 C {vsource.sym} -2250 2350 0 0 {name=V26 value="pwl(0n 0 1n 0 1.01n 1.8 3n 1.8 3.01n 0 4n 0 4.01n 1.8)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -2250 2380 0 0 {name=l26 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -1940 1970 0 0 {name=p254 sig_type=std_logic lab=A0_0
-spice_ignore=true}
+}
 C {lab_pin.sym} -2090 2090 0 0 {name=p255 sig_type=std_logic lab=A1_0
-spice_ignore=true}
+}
 C {lab_pin.sym} -2180 2210 0 0 {name=p256 sig_type=std_logic lab=A2_0
-spice_ignore=true}
+}
 C {lab_pin.sym} -2250 2320 0 0 {name=p257 sig_type=std_logic lab=A3_0
-spice_ignore=true}
+}
 C {vsource.sym} -1580 2000 0 0 {name=V27 value="pwl(0n 1.8 1n 1.8 1.01n 0 4n 0 4.01n 1.8 5n 1.8 5.01n 0)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -1580 2030 0 0 {name=l27 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -1580 1970 0 0 {name=p258 sig_type=std_logic lab=A0_1
-spice_ignore=true}
+}
 C {vsource.sym} -1240 1990 0 0 {name=V28 value="pwl(0n 1.8 1n 1.8 1.01n 0 4n 0 4.01n 1.8 5n 1.8 5.01n 0)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -1240 2020 0 0 {name=l28 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -1240 1960 0 0 {name=p259 sig_type=std_logic lab=A0_2
-spice_ignore=true}
+}
 C {vsource.sym} -880 1990 0 0 {name=V29 value="pwl(0n 1.8 1n 1.8 1.01n 0 4n 0 4.01n 1.8 5n 1.8 5.01n 0)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -880 2020 0 0 {name=l29 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -880 1960 0 0 {name=p260 sig_type=std_logic lab=A0_3
-spice_ignore=true}
+}
 C {vsource.sym} -1580 2120 0 0 {name=V30 value="pwl(0n 1.8 1n 1.8 1.01n 0 2n 0 2.01n 1.8 4n 1.8 4.01n 0 6n 0 6.01n 1.8 7n 1.8 7.01n 0)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -1580 2150 0 0 {name=l30 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -1580 2090 0 0 {name=p261 sig_type=std_logic lab=A1_1
-spice_ignore=true}
+}
 C {vsource.sym} -1080 2120 0 0 {name=V31 value="pwl(0n 1.8 1n 1.8 1.01n 0 2n 0 2.01n 1.8 4n 1.8 4.01n 0 6n 0 6.01n 1.8 7n 1.8 7.01n 0)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -1080 2150 0 0 {name=l31 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -1080 2090 0 0 {name=p262 sig_type=std_logic lab=A1_2
-spice_ignore=true}
+}
 C {vsource.sym} -570 2120 0 0 {name=V32 value="pwl(0n 1.8 1n 1.8 1.01n 0 2n 0 2.01n 1.8 4n 1.8 4.01n 0 6n 0 6.01n 1.8 7n 1.8 7.01n 0)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -570 2150 0 0 {name=l32 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -570 2090 0 0 {name=p263 sig_type=std_logic lab=A1_3
-spice_ignore=true}
+}
 C {vsource.sym} -2010 2240 0 0 {name=V33 value="pwl(0n 0 7n 0 7.01n 1.8)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -2010 2270 0 0 {name=l33 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -2010 2210 0 0 {name=p264 sig_type=std_logic lab=A2_1
-spice_ignore=true}
+}
 C {vsource.sym} -1850 2240 0 0 {name=V34 value="pwl(0n 0 7n 0 7.01n 1.8)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -1850 2270 0 0 {name=l34 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -1850 2210 0 0 {name=p265 sig_type=std_logic lab=A2_2
-spice_ignore=true}
+}
 C {vsource.sym} -1680 2240 0 0 {name=V35 value="pwl(0n 0 7n 0 7.01n 1.8)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -1680 2270 0 0 {name=l35 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -1680 2210 0 0 {name=p266 sig_type=std_logic lab=A2_3
-spice_ignore=true}
+}
 C {vsource.sym} -1920 2350 0 0 {name=V36 value="pwl(0n 0 1n 0 1.01n 1.8 3n 1.8 3.01n 0 4n 0 4.01n 1.8)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -1920 2380 0 0 {name=l36 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -1920 2320 0 0 {name=p267 sig_type=std_logic lab=A3_1
-spice_ignore=true}
+}
 C {vsource.sym} -1600 2350 0 0 {name=V37 value="pwl(0n 0 1n 0 1.01n 1.8 3n 1.8 3.01n 0 4n 0 4.01n 1.8)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -1600 2380 0 0 {name=l37 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -1600 2320 0 0 {name=p268 sig_type=std_logic lab=A3_2
-spice_ignore=true}
+}
 C {vsource.sym} -1280 2350 0 0 {name=V38 value="pwl(0n 0 1n 0 1.01n 1.8 3n 1.8 3.01n 0 4n 0 4.01n 1.8)" savecurrent=false
-spice_ignore=true}
+}
 C {gnd.sym} -1280 2380 0 0 {name=l38 lab=GND
-spice_ignore=true}
+}
 C {lab_pin.sym} -1280 2320 0 0 {name=p269 sig_type=std_logic lab=A3_3
-spice_ignore=true}
+}
 C {gnd.sym} -340 2010 0 0 {name=l39 lab=gnd
-spice_ignore=true}
+}
+C {vsource.sym} -3320 2610 0 0 {name=V39 value="pwl(0n 0 3n 0 3.01n 1.8 5n 1.8 5.01n 0)" savecurrent=false
+}
+C {gnd.sym} -3320 2640 0 0 {name=l40 lab=GND
+}
+C {vsource.sym} -3320 2710 0 0 {name=V40 value="pwl(0n 0 1n 0 1.01n 1.8 4n 1.8 4.01n 0 6n 0 6.01n 1.8)" savecurrent=false
+}
+C {gnd.sym} -3320 2740 0 0 {name=l41 lab=GND
+}
+C {vsource.sym} -3320 2810 0 0 {name=V41 value="pwl(0n 1.8 1n 1.8 1.01n 0 2n 0 2.01n 1.8 3n 1.8 3.01n 0 4n 0 4.01n 1.8 5n 1.8 5.01n 0 6n 0 6.01n 1.8)" savecurrent=false
+}
+C {gnd.sym} -3320 2840 0 0 {name=l42 lab=GND
+}
+C {vsource.sym} -3320 2910 0 0 {name=V42 value="pwl(0n 0 4n 0 4.01n 1.8 6n 1.8 6.01n 0)" savecurrent=false
+}
+C {gnd.sym} -3320 2940 0 0 {name=l43 lab=GND
+}
+C {lab_pin.sym} -3320 2580 0 0 {name=p270 sig_type=std_logic lab=B0_0
+}
+C {lab_pin.sym} -3320 2680 0 0 {name=p271 sig_type=std_logic lab=B1_0
+}
+C {lab_pin.sym} -3320 2780 0 0 {name=p272 sig_type=std_logic lab=B2_0
+}
+C {lab_pin.sym} -3320 2880 0 0 {name=p273 sig_type=std_logic lab=B3_0
+}
+C {vsource.sym} -3010 2610 0 0 {name=V43 value="pwl(0n 0 3n 0 3.01n 1.8 5n 1.8 5.01n 0)" savecurrent=false
+}
+C {gnd.sym} -3010 2640 0 0 {name=l44 lab=GND
+}
+C {lab_pin.sym} -3010 2580 0 0 {name=p274 sig_type=std_logic lab=B0_1
+}
+C {vsource.sym} -2740 2610 0 0 {name=V44 value="pwl(0n 0 3n 0 3.01n 1.8 5n 1.8 5.01n 0)" savecurrent=false
+}
+C {gnd.sym} -2740 2640 0 0 {name=l45 lab=GND
+}
+C {lab_pin.sym} -2740 2580 0 0 {name=p275 sig_type=std_logic lab=B0_2
+}
+C {vsource.sym} -2430 2610 0 0 {name=V45 value="pwl(0n 0 3n 0 3.01n 1.8 5n 1.8 5.01n 0)" savecurrent=false
+}
+C {gnd.sym} -2430 2640 0 0 {name=l46 lab=GND
+}
+C {lab_pin.sym} -2430 2580 0 0 {name=p276 sig_type=std_logic lab=B0_3
+}
+C {vsource.sym} -3000 2710 0 0 {name=V46 value="pwl(0n 0 1n 0 1.01n 1.8 4n 1.8 4.01n 0 6n 0 6.01n 1.8)" savecurrent=false
+}
+C {gnd.sym} -3000 2740 0 0 {name=l47 lab=GND
+}
+C {lab_pin.sym} -3000 2680 0 0 {name=p277 sig_type=std_logic lab=B1_1
+}
+C {vsource.sym} -2640 2720 0 0 {name=V47 value="pwl(0n 0 1n 0 1.01n 1.8 4n 1.8 4.01n 0 6n 0 6.01n 1.8)" savecurrent=false
+}
+C {gnd.sym} -2640 2750 0 0 {name=l48 lab=GND
+}
+C {lab_pin.sym} -2640 2690 0 0 {name=p278 sig_type=std_logic lab=B1_2
+}
+C {vsource.sym} -2320 2720 0 0 {name=V48 value="pwl(0n 0 1n 0 1.01n 1.8 4n 1.8 4.01n 0 6n 0 6.01n 1.8)" savecurrent=false
+}
+C {gnd.sym} -2320 2750 0 0 {name=l49 lab=GND
+}
+C {lab_pin.sym} -2320 2690 0 0 {name=p279 sig_type=std_logic lab=B1_3
+}
+C {vsource.sym} -2730 2810 0 0 {name=V49 value="pwl(0n 1.8 1n 1.8 1.01n 0 2n 0 2.01n 1.8 3n 1.8 3.01n 0 4n 0 4.01n 1.8 5n 1.8 5.01n 0 6n 0 6.01n 1.8)" savecurrent=false
+}
+C {gnd.sym} -2730 2840 0 0 {name=l50 lab=GND
+}
+C {lab_pin.sym} -2730 2780 0 0 {name=p280 sig_type=std_logic lab=B2_1
+}
+C {vsource.sym} -2150 2810 0 0 {name=V50 value="pwl(0n 1.8 1n 1.8 1.01n 0 2n 0 2.01n 1.8 3n 1.8 3.01n 0 4n 0 4.01n 1.8 5n 1.8 5.01n 0 6n 0 6.01n 1.8)" savecurrent=false
+}
+C {gnd.sym} -2150 2840 0 0 {name=l51 lab=GND
+}
+C {lab_pin.sym} -2150 2780 0 0 {name=p281 sig_type=std_logic lab=B2_2
+}
+C {vsource.sym} -1560 2810 0 0 {name=V51 value="pwl(0n 1.8 1n 1.8 1.01n 0 2n 0 2.01n 1.8 3n 1.8 3.01n 0 4n 0 4.01n 1.8 5n 1.8 5.01n 0 6n 0 6.01n 1.8)" savecurrent=false
+}
+C {gnd.sym} -1560 2840 0 0 {name=l54 lab=GND
+}
+C {lab_pin.sym} -1560 2780 0 0 {name=p325 sig_type=std_logic lab=B2_3
+}
+C {vsource.sym} -3010 2920 0 0 {name=V52 value="pwl(0n 0 4n 0 4.01n 1.8 6n 1.8 6.01n 0)" savecurrent=false
+}
+C {gnd.sym} -3010 2950 0 0 {name=l52 lab=GND
+}
+C {lab_pin.sym} -3010 2890 0 0 {name=p326 sig_type=std_logic lab=B3_1
+}
+C {vsource.sym} -2720 2920 0 0 {name=V53 value="pwl(0n 0 4n 0 4.01n 1.8 6n 1.8 6.01n 0)" savecurrent=false
+}
+C {gnd.sym} -2720 2950 0 0 {name=l53 lab=GND
+}
+C {lab_pin.sym} -2720 2890 0 0 {name=p327 sig_type=std_logic lab=B3_2
+}
+C {vsource.sym} -2410 2930 0 0 {name=V54 value="pwl(0n 0 4n 0 4.01n 1.8 6n 1.8 6.01n 0)" savecurrent=false
+}
+C {gnd.sym} -2410 2960 0 0 {name=l55 lab=GND
+}
+C {lab_pin.sym} -2410 2900 0 0 {name=p328 sig_type=std_logic lab=B3_3
+}
